@@ -11,6 +11,8 @@ namespace Cities
 
             List<string[]> rows = new List<string[]>();
 
+            // right mouse on the city_data.csv file and open Properties
+            // Copy to Output Direction - select option "Copy if Newer"
             using (StreamReader reader = File.OpenText("city_data.csv"))
             {
                 while (reader.Peek() >= 0)
